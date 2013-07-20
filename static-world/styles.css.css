@@ -1,0 +1,17 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center; }
+
+#main-content {
+  background-color: grey;
+  padding: 1em;
+  width: 70%;
+  margin: 0 auto; }
+  #main-content p {
+    color: #f3f2e1;
+    font-size: 14px; }
+
+p {
+  font-size: 11px; }
+
+/*# sourceMappingURL=styles.css.css.map */
