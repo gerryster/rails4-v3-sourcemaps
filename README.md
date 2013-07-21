@@ -16,7 +16,7 @@ I then started a static web server in the same directly via:
 $ ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 3002, :DocumentRoot => Dir.pwd).start'
 ```
 
-This works great in the Chrome Canary but to my surprise does not work at all in Chrome 28.0.1500.71.  This also does not work in FireFox 22 but I have not tried any bleeding edge builds of Firefox.  From what I can tell, [v3 source maps may be supported in FireFox 23](https://wiki.mozilla.org/DevTools/Features/SourceMap).  [This plugin](https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/) may also get Firefox stable working.
+This works great in the Chrome Canary but to my surprise does not work at all in Chrome 28.0.1500.71.  This also does not work in Firefox 22 but I have not tried any bleeding edge builds of Firefox.  From what I can tell, [v3 source maps may be supported in Firefox 23](https://wiki.mozilla.org/DevTools/Features/SourceMap).  [This plugin](https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/) may also get Firefox stable working.
 
 ## Other Findings
 
