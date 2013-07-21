@@ -20,4 +20,4 @@ This works great in the Chrome Canary but to my surprise does not work at all in
 
 ## Other Findings
 
-Sass 3.3 does not play well with compass (0.12.2) as documented [here](https://github.com/chriseppstein/compass/issues/1339).
+Sass 3.3 does not play well with compass (0.12.2) as documented [here](https://github.com/chriseppstein/compass/issues/1339).  There is also a Compass [feature request](https://github.com/chriseppstein/compass/issues/1108) for source map support.
