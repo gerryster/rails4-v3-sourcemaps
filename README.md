@@ -1,6 +1,6 @@
 # SASS Version 3 Source Map in Rails
 
-This application exists to get [version 3 source maps](https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit#heading=h.75yo6yoyk7x5) working with SASS in a Rails application.  I have had no luck with the Rails application.  Even though I am using a version of the sass gem which supports version 3 source maps, I believe the current problem is that the sass-rails gem lacks support for creating and knowing how to serve the "*.css.map files".
+This application exists to get [version 3 source maps](https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit#heading=h.75yo6yoyk7x5) working with SASS in a Rails application.  I have had no luck with the Rails application.  Even though I am using a version of the sass gem which supports version 3 source maps, I believe the current problem is that the sass-rails gem lacks support for creating and knowing how to serve the "*.css.map files".  It looks like a [feature request](https://github.com/rails/sass-rails/issues/130) was created for this against the sass-rails gem but it was closed without being resolved.
 
 ## Sanity Check
 
